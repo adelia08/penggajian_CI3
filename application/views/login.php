@@ -3,18 +3,18 @@
 <head>
   <title>Login | Aplikasi Penggajian</title>
   <link href="<?php echo base_url(); ?>assets/css/login.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Ubuntu&display=swap" rel="stylesheet">
   <script src="<?php echo base_url(); ?>assets/js/a81368914c.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <div class="container">
     <div class="img">
-      <img src="<?php echo base_url(); ?>assets/img/login.svg">
+      <img src="<?php echo base_url(); ?>assets/img/id.svg">
     </div>
     <div class="login-content">
       <form class="user" method="POST" action="<?php echo base_url('login') ?>">
-        <img src="<?php echo base_url(); ?>assets/img/avatar.svg">
+        <!-- <img src="<?php echo base_url(); ?>assets/img/avatar.svg"> -->
         <h2 class="title"><font size="5">Penggajian Karyawan</font></h2>
         <?php echo $this->session->flashdata('pesan')?>
               <div class="input-div one">

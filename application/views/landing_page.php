@@ -18,22 +18,22 @@
             <div class="circleBall"></div>
          </div>
       </div>
-      <!-- Go to top Button -->
+      <!-- Go to top Button
       <a href="#Home">
          <div class="Gototop">
                <i class="fa fa-angle-double-up text-white" aria-hidden="true"></i>
          </div>
-      </a>
+      </a> -->
       <!-- Header Section -->
       <div class="Header" id="Home">
          <nav class="navbar fixed-top">
             <div class="container">
-               <a class="navbar-brand" href="#">Gaji Karyawan</a>
+               <a class="navbar-brand" href="#">Aplikasi Penggajian PT. Baroqah Tbk.</a>
                <div class="collapse_menu deactive">
                   <i class="fa fa-bars" aria-hidden="true"></i>
                   <i class="fa fa-times" aria-hidden="true"></i>
                   <ul class="nav">
-                     <li class="nav-item">
+                     <!-- <li class="nav-item">
                         <a class="nav-link" href="#Home">Home</a>
                      </li>
                      <li class="nav-item">
@@ -41,7 +41,7 @@
                      </li>
                      <li class="nav-item">
                         <a class="nav-link" href="#AboutMe">About Me</a>
-                     </li>
+                     </li> -->
                      <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url('login');?>">Login</a>
                      </li>
@@ -57,22 +57,22 @@
                         <div>
                            <h2><b><i>Penggajian Karyawan</i></b></h2>
                         </div>
-                        <p>Selmat datang di aplikasi Sistem Informasi Penggajian Karyawan <br>PT. Barokah TBK</p>
+                        <p>Selamat datang di aplikasi Sistem Informasi Penggajian Karyawan <br>PT. Barokah TBK</p>
                      </div>
                   </div>
-                  <div class="col headerImg" style="background-image: url('<?php echo base_url()?>assets/img/uangg.svg');"></div>
-                  <div class="col-12 Dicover_Parent">
+                  <div class="col headerImg" style="background-image: url('<?php echo base_url()?>assets/img/office.svg');"></div>
+                  <!-- <div class="col-12 Dicover_Parent">
                      <a href="#AboutMe">
                         <div class="Discover">
                            <i class="fa fa-angle-double-down text-white" aria-hidden="true"></i>
                         </div>
                      </a>
-                  </div>
+                  </div> -->
                </div>
             </div>
          </div>
       </div>
-      <!-- Service Section -->
+      <!-- Service Section
       <div class="Service" id="Tentang">
          <div class="Section">
             <div class="text-center">
@@ -95,7 +95,7 @@
              #panel1, #flip1 {
                padding: 5px;
                text-align: center;
-               background-color: #00BFD8;
+               background-color: #ABC270;
                border: solid 1px #c3c3c3;
                border-radius: 10px 10px 10px 10px;
              }
@@ -130,7 +130,7 @@
                    #panel2, #flip2 {
                      padding: 5px;
                      text-align: center;
-                     background-color: #00BFD8;
+                     background-color: #ABC270;
                      border: solid 1px #c3c3c3;
                      border-radius: 10px 10px 10px 10px;
                    }
@@ -163,7 +163,7 @@
                    #panel3, #flip3 {
                      padding: 5px;
                      text-align: center;
-                     background-color: #00BFD8;
+                     background-color: #ABC270;
                      border: solid 1px #c3c3c3;
                      border-radius: 10px 10px 10px 10px;
                    }
@@ -196,7 +196,7 @@
                    #panel4, #flip4 {
                      padding: 5px;
                      text-align: center;
-                     background-color: #00BFD8;
+                     background-color: #ABC270;
                      border: solid 1px #c3c3c3;
                      border-radius: 10px 10px 10px 10px;
                   }
@@ -222,7 +222,7 @@
       </div>
       <!-- Team Section -->
       <div class="Team" id="AboutMe">
-         <div class="Section">
+         <!-- <div class="Section">
             <div class="text-center">
                <h2><b>About Me</b></h2>
                <br>
@@ -254,13 +254,13 @@
                </div>
             </div>
          </div>
-      </div>
+      </div> -->
       <!-- Footer Section -->
       <div class="Footer" id="Footer">
          <div class="container">
             <div class="row">
                <div class="col-12 text-center my-3">
-                  Copyright &copy; Abid Taufiqur Rohman | Penggajian 2022 - All Rights Reserved
+                  Copyright &copy; Khofifah Adelia | PT. Baroqah Tbk. - All Rights Reserved
                </div>
             </div>
          </div>
@@ -269,5 +269,5 @@
       <script src="<?php echo base_url(); ?>assets/landing/js/jquery.js"></script>
       <script src="<?php echo base_url(); ?>assets/landing/js/bootstrap.js"></script>
       <script src="<?php echo base_url(); ?>assets/landing/js/script.js"></script>
-   </body>
+   </body> -->
 </html>

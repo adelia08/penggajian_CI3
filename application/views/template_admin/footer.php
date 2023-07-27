@@ -2,7 +2,7 @@
       <footer class="sticky-footer">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Abid Taufiqur Rohman | Penggajian 2022</span>
+            <span>Copyright &copy; Khofifah Adelia| Aplikasi Penggajian 2023</span>
           </div>
         </div>
       </footer>
@@ -38,7 +38,7 @@ var myPieChart = new Chart(ctx, {
       data: [<?php echo $this->db->query("select status from data_pegawai where status='Karyawan Tetap'")->num_rows(); ?>,
       <?php echo $this->db->query("select status from data_pegawai where status='Karyawan Tidak Tetap'")->num_rows(); ?>,
       ],
-      backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc', '#dddfeb'],
+      backgroundColor: ['#617A55', '#1cc88a', '#36b9cc', '#dddfeb'],
       hoverBackgroundColor: ['#2e59d9', '#17a673', '#2c9faf', '#dddfeb'],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
     }],
@@ -47,7 +47,7 @@ var myPieChart = new Chart(ctx, {
     maintainAspectRatio: false,
     tooltips: {
       backgroundColor: "rgb(255,255,255)",
-      bodyFontColor: "#858796",
+      bodyFontColor: "#116D6E",
       borderColor: '#dddfeb',
       borderWidth: 1,
       xPadding: 15,
